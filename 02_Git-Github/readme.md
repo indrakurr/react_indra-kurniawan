@@ -43,3 +43,6 @@ Kemudian, saat waktu rilis tiba, isolasi fitur-fitur baru dari cabang Develop ke
 Tergantung pada karakter proyek, mungkin ide yang baik untuk merilis versi RC (Release Candidate) dari local ke publik.
 
 Ketika rilis sudah stabil dan semua kendala telah diatasi, gabungkan cabang rilis kembali ke cabang Master dan deploy ke produksi!
+
+## Latihan Introduction FE
+[Link Google Docs](https://docs.google.com/document/d/1zQYgLcPMPr_kFmNRoph0q48PSw3s7VAI0QNU6bbQcfE/edit?usp=sharing)
