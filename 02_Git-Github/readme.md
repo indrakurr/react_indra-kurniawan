@@ -29,6 +29,7 @@ Bagainama GitHub bekerja
 
 Alur kerja pada GitHub, misalnya Gitflow : 
 ![gitflow](https://github.com/indrakurr/react_indra-kurniawan/assets/122657032/a89b9560-5fd5-43bc-a923-d1287e24914c)
+
 Alur kerja ini menggunakan dua cabang panjang yang berjalan secara paralel:
 
 -Master
