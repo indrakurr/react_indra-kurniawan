@@ -6,7 +6,7 @@
 Git adalah salah datu *version control system* populer yang digunakan para developer untuk mengembangkan software secara bersama-sama. Sedangkan Github adalah layanan Version Control System berbasis git secara online.
 
 Bagainama GitHub bekerja
-![alt text](02_Git-Github\Screnshoot\how-git-work.png)
+
 
 ### - Perintah-perintah dalam GitHub:
 
