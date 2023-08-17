@@ -1,5 +1,8 @@
 # Resume Kampus Merdeka ReactJS – Version Control and Branch Managements (Git)
 
+## Latihan Version Control and Branch Managements (Git)
+[Link Google Docs](https://docs.google.com/document/d/1zQYgLcPMPr_kFmNRoph0q48PSw3s7VAI0QNU6bbQcfE/edit?usp=sharing)
+
 ## 3 Poin Live Session hari kedua, minggu 1 :
 ### - Apa itu Git dan GitHub
 
@@ -44,5 +47,3 @@ Tergantung pada karakter proyek, mungkin ide yang baik untuk merilis versi RC (R
 
 Ketika rilis sudah stabil dan semua kendala telah diatasi, gabungkan cabang rilis kembali ke cabang Master dan deploy ke produksi!
 
-## Latihan Version Control and Branch Managements (Git)
-[Link Google Docs](https://docs.google.com/document/d/1zQYgLcPMPr_kFmNRoph0q48PSw3s7VAI0QNU6bbQcfE/edit?usp=sharing)
