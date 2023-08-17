@@ -1,5 +1,8 @@
 # Resume Kampus Merdeka ReactJS – Introduction FE
 
+## Latihan Introduction FE
+[Link Google Docs](https://docs.google.com/document/d/1xs_YgfKegVJF3Y-AqPEkRJK_YNyhwYCd9g09HN1qPDk/edit?usp=sharing)
+
 ## Live Session hari pertama, minggu 1 :
 ### - Apa itu FrontEnd Developer
 
@@ -13,5 +16,4 @@ Yaitu seperti mengimplementasikan desain UI dan UX yang sudah siap dirancang ole
 
 Melalui roadmap.sh digambarkan beberapa hal hal penting yang perlu kita kuasai untuk menjadi Frontend Developer seperti, Internet, HTML/CSS, JavaScript, Framework CSS dan JavaScript, Preprocessor CSS, Version Control System (Git), Responsive & Mobile Design, Testing/Debugging, Browser Developer Tools, Accessibility, dll.
 
-## Latihan Introduction FE
-[Link Google Docs](https://docs.google.com/document/d/1xs_YgfKegVJF3Y-AqPEkRJK_YNyhwYCd9g09HN1qPDk/edit?usp=sharing)
+
