@@ -9,7 +9,9 @@
 Git adalah salah datu *version control system* populer yang digunakan para developer untuk mengembangkan software secara bersama-sama. Sedangkan Github adalah layanan Version Control System berbasis git secara online.
 
 Bagainama GitHub bekerja
-![how-git-work](https://github.com/indrakurr/react_indra-kurniawan/assets/122657032/73431b74-6f11-41d2-8569-6741b6308d09)
+
+![how-git-work](https://github.com/indrakurr/react_indra-kurniawan/assets/122657032/fa750390-d847-4f6d-b501-52e10ff17ba5)
+
 
 
 ### - Perintah-perintah dalam GitHub:
@@ -31,7 +33,8 @@ Bagainama GitHub bekerja
 ### - Workflow Colaboration
 
 Alur kerja pada GitHub, misalnya Gitflow : 
-![gitflow](https://github.com/indrakurr/react_indra-kurniawan/assets/122657032/a89b9560-5fd5-43bc-a923-d1287e24914c)
+![gitflow](https://github.com/indrakurr/react_indra-kurniawan/assets/122657032/e92fb5a6-3e20-4979-9035-6ee3d8998116)
+
 
 Alur kerja ini menggunakan dua cabang panjang yang berjalan secara paralel:
 
