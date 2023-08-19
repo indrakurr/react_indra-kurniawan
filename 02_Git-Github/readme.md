@@ -1,4 +1,5 @@
 # Resume Kampus Merdeka ReactJS – Version Control and Branch Managements (Git)
+# 15-16 Agustus
 
 ## Latihan Version Control and Branch Managements (Git)
 [Link Google Docs](https://docs.google.com/document/d/1zQYgLcPMPr_kFmNRoph0q48PSw3s7VAI0QNU6bbQcfE/edit?usp=sharing)
