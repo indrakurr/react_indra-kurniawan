@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Product</title>
+</head>
+
+<body>
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+
+    <form>
+        <label>Product name :</label><br />
+        <input id="product-name" name="productName" type="text" value="" required min="6" max="50">
+    </form>
+
+    <label>Product category :</label><br />
+    <select name="" id="" required>
+        <option value=""></option>
+        <option value="Sneakers">Sneakers</option>
+        <option value="T-shirt">T-shirt</option>
+        <option value="Outer">Outer</option>
+        <option value="Pants">Pants</option>
+    </select>
+
+    <label>Product Freshness :</label><br />
+    <input type="radio" required>
+    <label>Brand New</label><br />
+    <input type="radio" required>
+    <label>Second Hand</label><br />
+    <input type="radio" required>
+    <label>Refurbished</label><br />
+
+    <label>Image of Product</label>
+    <input type="file" required><br />
+    <label>Additional Description</label><br />
+    <textarea name="" style="width: 241px; height: 99px;"></textarea><br />
+    <label>Product Price :</label><br />
+    <input type="number" placeholder="$100" style="width: 47px; height: 18px;" required><br />
+    <button style="margin-top: 5px;" required>Submit</button>
+</body>
+
+</html>
