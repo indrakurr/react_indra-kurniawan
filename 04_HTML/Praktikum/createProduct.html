@@ -10,36 +10,60 @@
 <body>
     <h1>Create Product</h1>
     <h2>Detail Product</h2>
-
     <form>
-        <label>Product name :</label><br />
-        <input id="product-name" name="productName" type="text" value="" required min="6" max="50">
+        <div class="form-group">
+            <label for="product-name">Product Name : </label><br />
+            <input type="text" name="product-name" id="product-name" required min="6" max="50">
+        </div>
+
+        <div class="form-group">
+            <label for="product-category">Product Category : </label><br />
+            <select name="product-category" id="product-category" required>
+                <option value="" selected></option>
+                <option value="Sneakers">Sneakers</option>
+                <option value="T-shirt">T-shirt</option>
+                <option value="Outer">Outer</option>
+                <option value="Pants">Pants</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Product Freshness : </p>
+            <label for="brand-new">
+                <input type="radio" name="brand-new" value="Brand New" required>
+                Brand New
+            </label><br />
+            <label for="second-hand">
+                <input type="radio" name="second-hand" value="Second Hand" required>
+                Second Hand
+            </label><br />
+            <label for="refurbished">
+                <input type="radio" name="refurbished" value="Refurbished" required>
+                Refurbished
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label for="image">
+                Image of Product
+                <input type="file" name="image" id="image" required>
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Additional Description : </label><br />
+            <textarea name="description" id="description" style="width: 241px; height: 99px;"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="price">Product Price : </label><br />
+            <input type="number" name="price" id="price" placeholder="$100" required>
+        </div>
+        
+        <div class="form-group">
+            <button type="submit" style="margin-top: 10px;">Submit</button>
+        </div>
     </form>
-
-    <label>Product category :</label><br />
-    <select name="" id="" required>
-        <option value=""></option>
-        <option value="Sneakers">Sneakers</option>
-        <option value="T-shirt">T-shirt</option>
-        <option value="Outer">Outer</option>
-        <option value="Pants">Pants</option>
-    </select>
-
-    <label>Product Freshness :</label><br />
-    <input type="radio" required>
-    <label>Brand New</label><br />
-    <input type="radio" required>
-    <label>Second Hand</label><br />
-    <input type="radio" required>
-    <label>Refurbished</label><br />
-
-    <label>Image of Product</label>
-    <input type="file" required><br />
-    <label>Additional Description</label><br />
-    <textarea name="" style="width: 241px; height: 99px;"></textarea><br />
-    <label>Product Price :</label><br />
-    <input type="number" placeholder="$100" style="width: 47px; height: 18px;" required><br />
-    <button style="margin-top: 5px;" required>Submit</button>
 </body>
 
 </html>
