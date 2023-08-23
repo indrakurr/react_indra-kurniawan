@@ -32,7 +32,7 @@ HTML merupakan singkatan dari Hypertext Markup Language, HTML adalah sebuah stan
 
 ### - Soal Prioritas 2
 
-![Landing Page](Screnshoot/create-account-fullpage.png)
+![Landing Page](Screnshoot/landing-page-fullpage.png)
 
 ### - Soal Ekspolorasi
 1. Lakukan validasi “required” pada setiap form yang telah dibuat
