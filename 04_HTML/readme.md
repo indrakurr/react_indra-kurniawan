@@ -48,3 +48,4 @@ HTML merupakan singkatan dari Hypertext Markup Language, HTML adalah sebuah stan
 3. Sambungkan halaman landingPage.html dengan CreateAccount.html sehingga dapat berpindah halaman
 
 ![Button GetStarted](Screnshoot/button-getStarted.png)
+![Create Account](Screnshoot/create-account.png)
