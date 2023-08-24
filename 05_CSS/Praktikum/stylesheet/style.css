@@ -26,6 +26,11 @@ header>h2 {
     margin: 0;
 }
 
+header:hover {
+    transform: translateY(-4px);
+    transition: transform 0.3s ease-in-out;
+}
+
 #hero {
     display: flex;
     height: 760px;
@@ -107,6 +112,7 @@ p {
     border-radius: 50px;
     border: 0;
     background: #47B2E4;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn1:hover {
@@ -133,6 +139,7 @@ p {
     border-radius: 50px;
     border: 0;
     background: transparent;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn2:hover {
@@ -240,6 +247,7 @@ p {
     font-weight: 400;
     line-height: 24px;
     /* 150% */
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn-subs:hover {
