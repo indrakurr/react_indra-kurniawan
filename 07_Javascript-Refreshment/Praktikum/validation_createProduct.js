@@ -33,6 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
       productName.length <= 25 &&
       !/[@#{}]/.test(productName);
 
+    if (!isProductNameValid) {
+      alert("Product Name must not contain symbols.");
+      return;
+    }
+
     // Product Category
     const isProductCategoryValid = productCategory !== "";
 
