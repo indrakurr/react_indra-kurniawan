@@ -58,6 +58,54 @@ document.addEventListener("DOMContentLoaded", function () {
     table.appendChild(tableBody);
   }
 
+  // Fungsi untuk menghapus produk berdasarkan nama produk
+  function deleteProduct(productName) {
+    const index = productList.findIndex(
+      (product) => product.productName === productName
+    );
+    if (index !== -1) {
+      productList.splice(index, 1);
+      updateProductTable();
+    }
+  }
+
+  // Fungsi untuk mencari produk berdasarkan nama produk
+  function searchProduct(productName) {
+    const filteredProducts = productList.filter((product) =>
+      product.productName.toLowerCase().includes(productName.toLowerCase())
+    );
+    if (filteredProducts.length === 0) {
+      alert("No matching products found.");
+    } else {
+      // Menampilkan hasil pencarian di tabel
+      productList.length = 0; // Mengosongkan productList
+      productList.push(...filteredProducts); // Menambahkan hasil pencarian ke productList
+      updateProductTable();
+    }
+  }
+
+  // Memanggil fungsi deleteProduct() saat tombol "Deletion" ditekan
+  document
+    .getElementById("deleteButton")
+    .addEventListener("click", function () {
+      const productName = prompt(
+        "Enter the name of the product you want to delete:"
+      );
+      if (productName) {
+        deleteProduct(productName);
+      }
+    });
+
+  // Memanggil fungsi searchProduct() saat tombol "Search" ditekan
+  document
+    .getElementById("searchButton")
+    .addEventListener("click", function () {
+      const searchInput = document.getElementById("searchInput").value;
+      if (searchInput) {
+        searchProduct(searchInput);
+      }
+    });
+
   // Tambahkan event listener untuk input pada form
   form.addEventListener("input", function () {
     const isValid = validateForm();
