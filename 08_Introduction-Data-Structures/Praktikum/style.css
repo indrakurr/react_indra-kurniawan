@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+.navbar-brand {
+    color: var(--bs-dark, #212529);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+li {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+h2 {
+    color: #212529;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38.4px;
+    /* 123.871% */
+}
+
+p {
+    margin-left: 55px;
+    width: 921.419px;
+    color: #212529;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    /* 150% */
+}
+
+h3 {
+    color: #212529;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px;
+    /* 125.217% */
+}
+
+label {
+    color: #212529;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.detail-product {
+    width: 656px;
+    height: auto;
+}
+
+form {
+    width: 608px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.file-upload {
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.file-upload::-webkit-file-upload-button {
+    background: #0d6efd !important;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #fff !important;
+    border: none;
+}
+
+.container-table {
+    width: 100%;
+}
+
+
+.search {
+    height: auto;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+    background-image: none;
+    padding-right: 5px;
+}
