@@ -159,31 +159,20 @@ document.addEventListener("DOMContentLoaded", function () {
     const additionalDescription = additionalDescriptionTextarea.value;
     const productPrice = productPriceInput.value;
 
-    // Validasi Product Name
+    // Validasi Form Input
     const isProductNameValid =
       productName.trim() !== "" &&
       productName.length <= 25 &&
       !/[@#{}]/.test(productName);
-
-    // Tampilkan pesan kesalahan jika Product Name tidak valid
+         // Tampilkan pesan kesalahan jika Product Name tidak valid
     if (!isProductNameValid) {
       alert("Product Name must not contain symbols.");
       return false;
     }
-
-    // Validasi Product Category
     const isProductCategoryValid = productCategory !== "";
-
-    // Validasi Product Image (Anda mungkin ingin menambahkan validasi tambahan di sini)
     const isProductImageValid = productImage.trim() !== "";
-
-    // Validasi Product Freshness
     const isProductFreshnessValid = !!productFreshness;
-
-    // Validasi Additional Description
     const isAdditionalDescriptionValid = additionalDescription.trim() !== "";
-
-    // Validasi Product Price
     const isProductPriceValid = productPrice.trim() !== "";
 
     // Aktifkan atau nonaktifkan border merah pada input
