@@ -88,6 +88,7 @@ form {
 .file-upload {
     border-radius: 5px;
     font-size: 16px;
+    width: 202px;
 }
 
 .file-upload::-webkit-file-upload-button {
