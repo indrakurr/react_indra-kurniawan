@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Competence 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container pb-1">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn.aboutstatic.com/file/79ece4caa24b33ea5285a444a2b86d00.png?quality=75&transparent=1&trim=1&height=480&width=360"
+                    width="" height="30" class="d-inline-block align-top" alt="Website Logo">
+                adidas
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-xl-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ms-3">
+                        <a class="nav-link link-primary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="This is Features button."
+                            href="#">Home</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link link-primary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="This is Features button."
+                            href="#">Products</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link link-primary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="This is Pricing button."
+                            href="#">About</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link link-primary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="This is FAQs button."
+                            href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end header -->
+
+    <!-- main -->
+    <div class="container-fluid banner">
+        <div class="container text-center">
+            <h4 class="mb-2 text-white">
+                THE WINNERS' SHOE
+            </h4>
+            <p class="text-light description mt-2">
+                Modern aesthetics, unmatched comfort, and unparalleled performance are what you'll experience when you
+                step
+                into Adidas'
+                'The Winner Shoe.' Meticulously designed for those who aspire to be champions, this shoe represents the
+                flawless fusion
+                of style, superior quality, and state-of-the-art technology
+            </p>
+            <a href="#">
+                <button type="button" class="btn btn-light btn-lg mt-4">
+                    Shop Now
+                </button>
+            </a>
+        </div>
+    </div>
+    <!-- end main -->
+
+    <!-- contact us -->
+    <section class="contact-section">
+        <div class="container pt-5 pb-5" id="ContactUs">
+            <div class="row">
+                <div class="contact-us col-md-6 text-center text-md-start">
+                    <h2 class="fw-bold">Contact Us</h2>
+                    <p class="mt-3">
+                        Need to get in touch with us? Either fill out the form with your
+                        inquiry or find the <a href="#">department email </a>you'd like to
+                        contact below
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-4 text-center text-md-start mt-3 mt-md-0">
+                    <form action="#" class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="firstName" class="form-label">First Name</label> <br>
+                                <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid first name.
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid last name.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-2">
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email</label> <br>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    aria-describedby="emailHelp" required />
+                                <div class="invalid-feedback">
+                                    Please provide a valid email address.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-2">
+                            <div class="col-12">
+                                <label for="message">What can we help you with?</label> <br>
+                                <textarea class="form-control" id="message" name="message" style="height: 100px"
+                                    required></textarea>
+                                <div class="invalid-feedback">
+                                    Please provide a message (max 50 characters).
+                                </div>
+                            </div>
+                        </div>
+                        <input type="submit" class="btn btn-primary mt-3" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact us -->
+
+    <!-- footer -->
+    <footer class="text-center text-lg-start text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h3 class="mb-4">
+                            <div class="me-3">
+                                <img src="https://cdn.aboutstatic.com/file/79ece4caa24b33ea5285a444a2b86d00.png?quality=75&transparent=1&trim=1&height=480&width=360"
+                                    alt="Logo" width="30px" />
+                            </div>
+                            adidas
+                        </h3>
+                        <h5>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia fermentum felis,
+                            nec facilisis ante imperdiet
+                            vitae. Pellentesque et egestas augue.
+                        </h5>
+                    </div>
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Support
+                        </h6>
+                        <p>
+                            <a class="text-white">adidas Indonesia</a>
+                        </p>
+                        <p>
+                            <a class="text-white">adidas UK</a>
+                        </p>
+                        <p>
+                            <a class="text-white">adidas US</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Lorem Ipsum</a>
+                        </p>
+                    </div>
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p><i class="fas fa-home mr-3"></i> Purwokerto, Jawa Tengah, Indonesia</p>
+                        <p><i class="fas fa-envelope mr-3"></i> kurniawanindra9d@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> 0815 7572 6544</p>
+                        <!-- social media -->
+                        <div class="icon d-flex gap-3 mt-3">
+                            <a href="https://www.instagram.com/indrakuur" target="_blank"><img
+                                    src="assets/instagram.svg" alt="Instagram Icon" /></a>
+                            <a href="https://www.linkedin.com/in/indrakurr/" target="_blank"><img
+                                    src="assets/linkedin.svg" alt="LinkedIn Icon" /></a>
+                            <a href="https://github.com/indrakurr" target="_blank"><img src="assets/github.svg"
+                                    alt="GitHub Icon" /></a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!--Grid row-->
+            </section>
+
+            <hr class="my-3">
+
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <div class="p-3">
+                            © 2023 Copyright:
+                            <a class="text-white">adidas</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- script-js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
