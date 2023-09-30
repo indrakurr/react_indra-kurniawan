@@ -16,6 +16,7 @@ function App() {
           <Route path="/create-product" index element={<CreateProduct />} />
           <Route path="/product/:index" element={<ProductDetail />} />
         </Route>
+        <Route path="*" element={<NotFoundPage/>} />
       </Routes>
     </BrowserRouter>
   );
