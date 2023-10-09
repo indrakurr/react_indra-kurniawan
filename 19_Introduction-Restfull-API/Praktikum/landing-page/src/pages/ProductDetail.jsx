@@ -18,7 +18,7 @@ function ProductDetail() {
           <img
             src={productData.productImage}
             alt="Product"
-            style={{ width: "400px", height: "auto" }}
+            style={{ width: "450px", height: "auto" }}
           />
         </p>
         <p>Product Id: {productData.id}</p>
