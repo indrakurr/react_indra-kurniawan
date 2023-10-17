@@ -1,0 +1,173 @@
+/* Import font Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Montserrat:wght@300;400;500;700&family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar {
+    background-image: linear-gradient(45deg, #f44f0b, #a32094);
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px !important;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+a.nav-link.link-primary {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #ffffff !important;
+}
+
+a.nav-link.link-primary:hover {
+    color: black !important;
+}
+
+.navbar-togler-icon {
+    color: #ffffff !important;
+}
+
+/* end navbar */
+
+/* main-banner */
+.banner {
+    background-image: url(./img/banner.png);
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    color: #ffffff;
+    height: 100vh;
+    border-radius: 0 0 50px 50px;
+}
+
+.container h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+.description {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* end main-banner */
+
+/* About us */
+.about {
+    align-items: center;
+}
+
+.about img {
+    height: 250px;
+}
+
+.about h2 {
+    color: #2c469b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+/* end about us */
+
+/* contact-section */
+.contact-section {
+    background-image: url(./img/contact-us-bg.png);
+    background-size: cover;
+}
+
+.contact-us {
+    margin-right: 220px;
+}
+
+.contact-us>h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    color: #6A3373;
+}
+
+.contact-us>p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact-us>p>a {
+    color: black;
+}
+
+label {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn-primary {
+    background-color: #6A3373 !important;
+    border: none !important;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* end contact-section */
+
+/* footer */
+footer {
+    background-color: #6A3373;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 30px !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    letter-spacing: -0.32px;
+    display: flex;
+}
+
+h5 {
+    font-family: Roboto !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+}
+
+/* end footer */
