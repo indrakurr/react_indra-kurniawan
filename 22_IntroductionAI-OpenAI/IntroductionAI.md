@@ -9,6 +9,7 @@ Seed words: genius, smart, funny
 4. FunEngineer
 5. IntelliBot
 6. LaughMaster
+7. GeekGenius
 8. BrainyCoder
 9. WitBot
 10. SmartyCircuit
