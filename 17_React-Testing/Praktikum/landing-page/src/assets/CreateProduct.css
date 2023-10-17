@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Montserrat:wght@300;400;500;700&family=Open+Sans&family=Roboto:wght@300;500&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto";
+}
+
+.content {
+    width: 656px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 370px;
+    }
+}
+
+.label-left {
+    float: left;
+    clear: left;
+    margin-right: 10px;
+}
+
+.form-check-label {
+    float: left;
+}
+
+h3 {
+    text-align: left;
+}
