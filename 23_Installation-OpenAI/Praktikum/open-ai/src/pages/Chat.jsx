@@ -13,7 +13,7 @@ const ChatAI = () => {
   const [result, setResult] = useState([]); // state untuk menyimpan response dari openai
 
   const openai = new OpenAI({
-    apiKey: "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", // defaults to process.env["OPENAI_API_KEY"]
+    apiKey: "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", // defaults to process.env["OPENAI_API_KEY"]
     dangerouslyAllowBrowser: true,
   });
 
