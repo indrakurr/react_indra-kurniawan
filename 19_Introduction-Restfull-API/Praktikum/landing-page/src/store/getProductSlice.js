@@ -15,18 +15,19 @@ const initialState = {
 const productsSlice = createSlice({
   name: "products",
   initialState,
+  reducers: {},
   extraReducers: (builder) => {
-    builder.addCase("fetch/getProducts/pending", (state) => {
+    builder.addCase(fetchGetProducts.pending, (state) => {
       state.status = "loading";
       state.message = "";
     });
-    builder.addCase("fetch/getProducts/fulfilled", (state, { payload }) => {
+    builder.addCase(fetchGetProducts.fulfilled, (state, action) => {
       state.status = "success";
-      state.data = payload;
+      state.data = action.payload;
     });
-    builder.addCase("fetch/getProducts/rejected", (state, { error }) => {
+    builder.addCase(fetchGetProducts.rejected, (state, action) => {
       state.status = "failed";
-      state.data = error.stack;
+      state.message = "Error fetching products";
     });
   },
 });
