@@ -1,0 +1,147 @@
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 40px 40px 20px 40px;
+    border-radius: 16px;
+    width: 800px;
+}
+
+h2 {
+    display: flex;
+    height: 35px;
+    width: 230px;
+    margin: 10px 0;
+    justify-content: center;
+    /* typography */
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+Button {
+    margin-top: 20px;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+p {
+    color: #d0d0d0;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+
+h1 {
+    display: flex;
+    height: 35px;
+    width: 230px;
+    justify-content: center;
+    align-items: center;
+    /* typography */
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.link {
+    margin-top: 10px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-dark {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.qna {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.submit {
+    margin-top: 0px;
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.system {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 15px !important;
+}
+
+.message-list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-right: 0px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.text-right {
+    background-color: #0d6efd;
+    display: inline-block;
+    max-width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.answer {
+    background-color: rgba(0, 0, 0, 0.1);
+    max-width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.message-answer {
+    text-align: left;
+}
